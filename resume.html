@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subarna S | Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <!-- Devicons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+
+    <style>
+      body {
+        background-color: #f9f9f9;
+        color: #333;
+      }
+      header {
+        background-color: #0d6efd;
+        color: white;
+        padding: 100px 0 60px;
+        text-align: center;
+      }
+      header h1 {
+        font-size: 3rem;
+        animation: fadeIn 1s ease forwards;
+      }
+      header p {
+        font-size: 1.5rem;
+        margin-top: 10px;
+        animation: fadeIn 1s ease forwards;
+        animation-delay: 0.5s;
+      }
+      .btn-custom {
+        margin: 5px;
+        transition: transform 0.3s;
+      }
+      .btn-custom:hover {
+        transform: translateY(-3px);
+      }
+      .skill-card:hover,
+      .project-card:hover,
+      .edu-card:hover,
+      .cert-card:hover {
+        transform: scale(1.05);
+        transition: all 0.3s;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <!-- Header -->
+    <header>
+      <div class="container text-center">
+        <h1>SUBARNA S</h1>
+        <p>Junior Developer | MERN Stack</p>
+        <div class="d-flex justify-content-center flex-wrap mt-3">
+          <a
+            href="mailto:ssubarna1012@gmail.com"
+            class="btn btn-light btn-custom me-2 mb-2"
+          >
+            <i class="fa-solid fa-envelope"></i> ssubarna1012@gmail.com
+          </a>
+          <a href="tel:8610313373" class="btn btn-light btn-custom mb-2">
+            <i class="fa-solid fa-phone"></i> 8610313373
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Me -->
+    <section class="container text-center my-5">
+      <h2 class="mb-4">About Me</h2>
+      <p>
+        Motivated Junior Developer with a Diploma in Computer Science and MERN
+        stack training. Skilled in HTML, CSS, JavaScript, React.js, Node.js,
+        Express.js, and MongoDB. Passionate about building responsive web apps
+        and learning new technologies.
+      </p>
+    </section>
+
+    <!-- Education -->
+    <section class="container my-5">
+      <h2 class="text-center mb-4">Education</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="p-4 bg-white rounded shadow edu-card">
+            <h5>Diploma in Computer Science</h5>
+            <p>Theni Kammavar Sangam College, Theni (80%)</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="p-4 bg-white rounded shadow edu-card">
+            <h5>SSLC</h5>
+            <p>St. Agnes Girls Higher Secondary School (88%)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Training & Certifications -->
+    <section class="container my-5">
+      <h2 class="text-center mb-4">Training & Certifications</h2>
+      <div class="row g-4">
+        <div class="col-md-12">
+          <div class="p-4 bg-white rounded shadow cert-card">
+            <h5>MERN Stack Development</h5>
+            <p>Zhahi Tech, Theni (2025)</p>
+            <ul>
+              <li>
+                Focused on full-stack web apps using MongoDB, Express.js,
+                React.js, Node.js
+              </li>
+              <li>Strengthened front-end skills: HTML, CSS, JavaScript</li>
+              <li>
+                Learned authentication, REST API design, and responsive UI
+                development
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills & Languages -->
+    <section class="container my-5">
+      <h2 class="text-center mb-4">Skills & Languages</h2>
+      <div class="row text-center g-3">
+        <!-- Skills -->
+        <div class="col-md-2 col-4">
+          <div class="p-3 bg-light rounded shadow skill-card">
+            <i class="devicon-html5-plain colored fs-1"></i>
+            <p>HTML5</p>
+          </div>
+        </div>
+        <div class="col-md-2 col-4">
+          <div class="p-3 bg-light rounded shadow skill-card">
+            <i class="devicon-css3-plain colored fs-1"></i>
+            <p>CSS3</p>
+          </div>
+        </div>
+        <div class="col-md-2 col-4">
+          <div class="p-3 bg-light rounded shadow skill-card">
+            <i class="devicon-javascript-plain colored fs-1"></i>
+            <p>JavaScript</p>
+          </div>
+        </div>
+        <div class="col-md-2 col-4">
+          <div class="p-3 bg-light rounded shadow skill-card">
+            <i class="devicon-react-original colored fs-1"></i>
+            <p>React.js</p>
+          </div>
+        </div>
+        <div class="col-md-2 col-4">
+          <div class="p-3 bg-light rounded shadow skill-card">
+            <i class="devicon-nodejs-plain colored fs-1"></i>
+            <p>Node.js</p>
+          </div>
+        </div>
+        <!-- Languages -->
+        <div class="col-md-2 col-4">
+          <div class="p-3 bg-light rounded shadow skill-card">
+            <i class="fa-solid fa-language fs-1"></i>
+            <p>Languages</p>
+            <small>Tamil, English, Malayalam</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="container my-5">
+      <h2 class="text-center mb-4">Projects</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="p-4 bg-white rounded shadow project-card">
+            <h3>Visa Processing Information System</h3>
+            <ul>
+              <li>Streamlined visa application and tracking system</li>
+              <li>User-friendly interface for applicants and admin</li>
+              <li>Backend integration to manage records efficiently</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="p-4 bg-white rounded shadow project-card">
+            <h3>Portfolio Website</h3>
+            <ul>
+              <li>Showcase projects and skills</li>
+              <li>Responsive design with Bootstrap</li>
+              <li>Interactive navigation using JavaScript</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-4">
+      <p>© 2025 Subarna S. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
